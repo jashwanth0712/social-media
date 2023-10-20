@@ -64,10 +64,9 @@ const ConnectWalletButton = () => {
             ) : (
                 <button className="button-36" onClick={disconnectFromMetaMask}>Disconnect</button>
             )}
-            <button className='button-23'>
-            {connectedAccount && <p  >{connectedAccount.slice(0, 6)}...{connectedAccount.slice(-3)}</p>}
-
-            </button>
+           {connectedAccount && <button className='button-23'>
+             <p  >{connectedAccount.slice(0, 6)}...{connectedAccount.slice(-3)}</p>
+            </button>}
         </div>
     );
 };
