@@ -9,10 +9,7 @@ import TrendsComponent from "../trendsComponents/trends";
 const Right = () => {
   return (
     <div id="container-right">
-      <div id="fixed-search">
-      <ConnectWalletButton/>
-
-      </div>
+     
 
       <div id="image-post-box">
         <div id="box-left-post"></div>

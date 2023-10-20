@@ -62,9 +62,9 @@ const Tweet = (props) => {
                 <AiOutlineHeart />
               )}
             </span>
-            <spna id="like-number">
+            <span id="like-number">
               {like === true  ? parseInt(props.likeNumber) + 1 : props.likeNumber}
-            </spna>
+            </span>
           </div>
           <span className="share" id="nav-icon-box">
             <FiShare />
